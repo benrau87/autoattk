@@ -19,7 +19,7 @@ xcopy /y index.html %outputdir%\* /q
 xcopy /y truepositives.txt %outputdir%\* /q
 
 
-rmdir result /q
+rmdir result /s /q
 del index.html /q
 del truepositives.txt /q
 del *.xml /q
